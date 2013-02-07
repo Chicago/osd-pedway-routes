@@ -1,0 +1,4 @@
+REM Translate the Shapefile to a machine-readable JSON
+ogr2ogr -f "GeoJSON" Pedway_Routes_ogr.json /path/to/portal/data/Pedway_Routes.shp
+REM Make the JSON file human readable.
+type Pedway_Routes_ogr.json | python -m simplejson.tool > Pedway_Routes.json
