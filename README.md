@@ -1,7 +1,7 @@
 README
 ======
 
-The City of Chicago is releasing selected datasets from the [data portal](http://data.cityofchicago.org, 'Chicago Data Portal') under the MIT License (see below). This repository contains:
+The City of Chicago is releasing selected datasets from the [data portal](http://data.cityofchicago.org 'Chicago Data Portal') under the MIT License (see below). This repository contains:
 1. Data in a GeoJSON format.
 2. Examples of importing data into R, Python, and Ruby.
 3. Instructions to transform data from the data portal to data in the repository.
@@ -14,7 +14,7 @@ The data was released as a [GeoJSON](http://www.geojson.org/geojson-spec.html) f
 R
 ---
 
-Find an example script [here](https://github.com/Chicago/osd-street-center-line/blob/master/examples/Importing%20GeoJSON%20R%20Demo.R, 'Importing GeoJSON data to R'). This example will import the data in R and create a couple of maps.
+Find an example script [here](/examples/Importing%20GeoJSON%20R%20Demo.R 'Importing GeoJSON data to R'). This example will import the data in R and create a couple of maps.
 
 Instructions:
 
@@ -68,7 +68,7 @@ Here is the outout you should expect from the ggplot() command:
 Python
 ------
 
-Find an example script [here](https://github.com/Chicago/osd-street-center-line/blob/master/examples/Importing%20GeoJSON%20Python%20Demo.py, 'Importing GeoJSON data to Python Demo').
+Find an example script [here](/examples/Importing%20GeoJSON%20Python%20Demo.py 'Importing GeoJSON data to Python Demo').
 
 1. Load the necessary json and pprint libraries.
 	```python
@@ -127,4 +127,4 @@ The folder "Transformations" contains the necessary code to transform data on th
 
 License
 =======
-This data is released under the [MIT License](http://opensource.org/licenses/MIT, 'MIT License'). See LICENSE.txt.
+This data is released under the [MIT License](http://opensource.org/licenses/MIT 'MIT License'). See LICENSE.txt.
