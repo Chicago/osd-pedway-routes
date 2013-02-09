@@ -6,6 +6,6 @@
 # MODULES: json
 
 import json
-transportation_json = open('PATH/TO/FILE/osd-street-center-line/data/Transportation.json', 'r')
-street_lines = json.load(json_data)
+pedway_json = open('PATH/TO/FILE/data/Pedway_Routes.json', 'r')
+pedway_routes = json.load(json_data)
 json_data.close()
